@@ -1,9 +1,8 @@
 import 'package:aslimy/home_screen/home_screen.dart';
 import 'package:aslimy/utlis/app_routes.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-void mine() {
+void main() {
   runApp(MyApp());
 }
 
