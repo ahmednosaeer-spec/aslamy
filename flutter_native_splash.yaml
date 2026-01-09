@@ -50,8 +50,8 @@ flutter_native_splash:
   # general background_image for all platform (except android 12+)
   # if you specify this [required] background_image, then you should comment the
   # [required] color in previous section. select one, they cant work together.
-  background_image: "assets/images/splash.png" #========[REQUIRED]============
-  background_image_dark: "assets/images/splash.png"
+  background_image: "assets/images/SplashScreen.png" #========[REQUIRED]============
+  background_image_dark: "assets/images/SplashScreen.png"
   # platform-specific background_image. will override general background_image if active:
   #background_image_android:      "assets/background-android.png"
   #background_image_dark_android: "assets/dark-background-android.png"
@@ -133,7 +133,7 @@ flutter_native_splash:
   #! ANDROID 12+ configuration:
   android_12:
   # background color
-  #color: "#42a5f5"
+  color: "#42a5f5"
   # color_dark: "#042a49"
 
   # center-logo
