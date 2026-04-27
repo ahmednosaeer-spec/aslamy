@@ -1,4 +1,5 @@
 import 'package:aslimy/home_screen/tabs/qruan/details/suraDetailsScreen.dart';
+import 'package:aslimy/home_screen/tabs/sebha/detalis/hadethDetailsScreen.dart';
 import 'package:aslimy/utlis/AppThem.dart';
 import 'package:flutter/material.dart';
 import 'package:aslimy/home_screen/home_screen.dart';
@@ -24,6 +25,8 @@ class MyApp extends StatelessWidget {
         AppRoutes.introRouteName: (context) => const IntroScreen(),
         AppRoutes.homeRouteName: (context) => const HomeScreen(),
         AppRoutes.suraDetailRouteName: (context) => const Suradetailsscreen(),
+        AppRoutes.hadethDetailRouteName: (context) =>
+            const Hadethdetailsscreen(),
         AppRoutes.suraDetail1RouteName: (context) => Suradetailsscreen1(),
       },
       darkTheme: AppTheme.darkTheme,

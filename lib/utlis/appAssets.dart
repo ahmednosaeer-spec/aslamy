@@ -17,4 +17,8 @@ class Appassets {
   static const String righ = 'assets/images/righ.png';
   static const String mo = 'assets/images/mo.png';
   static const String bk = 'assets/images/bk.png';
+  static const String clift = 'assets/images/left_corner.png';
+  static const String cright = 'assets/images/right_corner.png';
+  static const String mos1 = 'assets/images/Mosque.png';
+  static const String bac = 'assets/images/BackGround.png';
 }
